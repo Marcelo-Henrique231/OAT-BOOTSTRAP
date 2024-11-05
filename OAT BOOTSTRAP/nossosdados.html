@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- cabeçalho topo -->
+    <div class="bg-primary text-white py-1">
+        <div class="container d-flex justify-content-between">
+            <div>
+                <span><strong>Local:</strong> Rua Gasparino Gomes, 100, Santo Antônio do Retiro</span>
+            </div>
+            <div>
+                <span><strong>Contato:</strong> (11) 1234-5678</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-flex align-items-center justify-content-between py-3">
+        <!-- Logo da Loja -->
+        <div>
+            <a href="index.html">
+                <img src="principal/logomarca.png" width="100" alt="Logomarca da Loja">
+            </a>
+        </div>
+
+        <!-- Barra de Pesquisa -->
+        <div class="flex-grow-1 mx-3">
+            <input class="form-control input-pesquisa" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        </div>
+
+        <!-- Links de Entrar e Inscrever-se -->
+        <div>
+            <a href="entrar.html" class="btn btn-outline-primary me-2">Entrar</a>
+          <a href="inscrever.html" class="btn btn-primary">Inscrever-se</a>
+        </div>
+    </div>
+
+    <!-- Menu de Navegação -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Pagina Principal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nossosdados.html">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobrenos.html">Sobre Nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Fale Conosco</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Linha de Divisão -->
+    <hr style="border: 1px solid black; margin: 20px 0;">
+
+    <!-- Seção de Contatos -->
+    <div class="container my-5">
+        <h3 class="text-center mb-4">Contatos</h3>
+        
+        <!-- Informações de Contato -->
+        <div class="mb-5">
+            <h5>Informações de Contato</h5>
+            <p><strong>Telefone:</strong> (11) 1234-5678</p>
+            <p><strong>Email:</strong> <a href="mailto:contato@comercialgomes.com">contato@comercialgomes.com</a></p>
+            <p><strong>Endereço:</strong> Rua Gasparino Gomes, 100, Santo Antônio do Retiro</p>
+        </div>
+
+        <!-- Formulário de Contato -->
+        <h5>Formulário de Contato</h5>
+        <form>
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" placeholder="Seu nome" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="Seu e-mail" required>
+            </div>
+            <div class="mb-3">
+                <label for="mensagem" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="mensagem" rows="4" placeholder="Sua mensagem" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+        </form>
+
+        <!-- Horário de Funcionamento -->
+        <div class="mt-5">
+            <h5>Horário de Funcionamento</h5>
+            <p>Segunda a Sexta: 07h - 18h</p>
+            <p>Sábado: 07h - 14h</p>
+            <p>Domingo: Fechado</p>
+        </div>
+    </div>
+
+    <!-- Seção de Localização -->
+    <div class="container-fluid my-5">
+        <h3 class="text-center mb-4">Localização</h3>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d961.9107293745242!2d-42.624945!3d-15.3416288!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x751d70429007069%3A0x855769c2a6910e76!2sComercial%20Gomes!5e0!3m2!1spt-BR!2sbr!4v1730834444768!5m2!1spt-BR!2sbr" 
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+
+   <!-- Rodapé -->
+   <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+        <h5>Comercial Gomes</h5>
+        <div class="social-media">
+            <a href="#" class="text-white me-3">
+                <i class="fab fa-facebook fa-lg"></i> Facebook
+            </a>
+            <a href="#" class="text-white me-3">
+                <i class="fab fa-instagram fa-lg"></i> Instagram
+            </a>
+            <a href="#" class="text-white">
+                <i class="fab fa-twitter fa-lg"></i> Twitter
+            </a>
+        </div>
+        <a href="contato.html" class="text-white">Fale Conosco</a>
+    </div>
+    <h6>Desenvolvido por: Marcelo Henrique Fernandes Mauricio</h6>
+</footer>
+
+    <!-- Script do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

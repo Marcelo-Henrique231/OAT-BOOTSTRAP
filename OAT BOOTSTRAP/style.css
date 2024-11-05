@@ -1,0 +1,52 @@
+img {
+    box-shadow: 0 px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: block; /* Faz a imagem se comportar como um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  }
+
+.empresa{
+  text-align: center;
+  margin: 0px auto;
+  color: black;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+#carouselExample {
+  max-width: 550px;
+  margin: 0 auto; /* Centraliza o carrossel */
+}
+
+/* Estilo para a barra de pesquisa */
+.input-pesquisa {
+  border: 2px solid grey !important; /* Borda preta */
+  background-color: #f0f0f0 !important; /* Fundo cinza */
+  padding: 10px !important; /* Espaçamento interno */
+  border-radius: 5px !important; /* Bordas arredondadas */
+  width: 100% !important; /* Largura total */
+  transition: border-color 0.3s !important; /* Transição suave para a borda */
+}
+
+.input-pesquisa:focus {
+  border-color: blue; /* Muda a cor da borda ao focar */
+  outline: none; /* Remove o contorno padrão do foco */
+}
+
+.navbar-nav .nav-link {
+  color: black; /* Texto preto */
+  margin-right: 50px; /* Espaçamento maior entre os links */
+}
+
+.navbar-nav .nav-link:last-child {
+  margin-right: 0; /* Remove o espaçamento do último link */
+}
+
+footer {
+  width: 100%;  /* Garante que o rodapé use 100% da largura disponível */
+  position: relative; /* Alinha o rodapé corretamente */
+}
